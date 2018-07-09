@@ -1,38 +1,14 @@
 ## Welcome to ikaru19's Diary
 
-You can use the [editor on GitHub](https://github.com/ikaru19/ikaru19.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+Hello i'm ikaru19 ! , welcome to my random stuff on github.. LOL Nothing to see here ! just a bunch of trash XD , but i'm not stop learning here hehehe .. Well i'm just a random guy with random stuff to study XD .. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### What I love Study Most ! 
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ikaru19/ikaru19.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+1. Mobile (I Love Study Android the most , well who doesn't love android XD )
+2. Website (Well you can learn about programming from here !! , The Ultimate PHP can help you learn the algorithm)
+3. Game (WE ARE LIVING AND LEARN WITH PLAYINH AND WHO DOESN'T LOVE GAME ! , EMMM , MAYBE JUST A DUMB PEOPLE HEHEHE..)
 
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Reach me here ! [LinkedIn](https://www.linkedin.com/in/muhammad-syafrizal-1abb70120/) , [Instagram](https://www.instagram.com/syafrizal19/) ,  [Facebook](https://www.facebook.com/ikaru19)
+
