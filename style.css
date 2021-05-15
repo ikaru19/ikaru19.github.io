@@ -12,11 +12,11 @@
 
 body {
   display: grid;
+  position: fixed; 
   grid-template-areas: "ocean";
   place-items: center;
   min-height: 100vh;
   background-color: var(--sea);
-  overflow: hidden;
 }
 body > * {
   grid-area: ocean;
