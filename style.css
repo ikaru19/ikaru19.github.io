@@ -1,0 +1,101 @@
+:root {
+  --sea: hsl(190, 100%, 90%);
+  --whale: hsl(215, 95%, 80%);
+  --whale-shadow: hsl(190, 30%, 50%);
+  --whale-light: hsl(215, 95%, 90%);
+  --whale-dark: hsl(215, 85%, 30%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-areas: "ocean";
+  place-items: center;
+  min-height: 100vh;
+  background-color: var(--sea);
+  overflow: hidden;
+}
+body > * {
+  grid-area: ocean;
+}
+
+h1 {
+  color: var(--whale-dark);
+  font-family: system-ui, sans-serif;
+  font-size: clamp(2rem, 1rem + 5vw, 4rem);
+  text-align: center;
+  max-width: 20ch;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.whale {
+  display: grid;
+  grid-template-areas: "whale";
+  height: 60vmin;
+  width: 60vmin;
+  background-color: var(--whale);
+  border-radius: 50%;
+  transform: translateX(-10vmin);
+  animation: swim 12s infinite forwards;
+  filter: drop-shadow(0 2px 2px var(--whale-shadow));
+}
+.whale > * {
+  grid-area: whale;
+}
+
+.eye {
+  border-radius: 50%;
+  background-color: var(--whale-dark);
+  width: 5vmin;
+  height: 5vmin;
+  margin-top: 20%;
+  margin-left: 20%;
+  position: relative;
+}
+.eye::after {
+  content: "";
+  width: 6vmin;
+  height: 6vmin;
+  position: absolute;
+  background-color: var(--whale);
+  top: -40%;
+  border-radius: 50%;
+}
+
+.belly {
+  height: 60vmin;
+  width: 60vmin;
+  background-color: var(--whale-light);
+  background-image: repeating-linear-gradient(240deg, var(--whale-light), var(--whale-light) 1vmin, var(--whale) 1vmin, var(--whale) 3vmin);
+  border-radius: 50%;
+  clip-path: circle(50.8% at 39% 90%);
+}
+
+.tail {
+  width: 30vmin;
+  height: 30vmin;
+  align-self: center;
+  justify-self: end;
+  background-color: var(--whale);
+  transform: translateX(25vmin);
+  clip-path: polygon(24% 6%, 70% 0%, 69% 47%, 100% 70%, 70% 100%, 0 86%, 0 49%);
+}
+
+@keyframes swim {
+  0% {
+    transform: translateX(100vw) translateY(-30%) rotate(-5deg);
+  }
+  30% {
+    transform: translateX(10vw) translateY(10%) rotate(8deg);
+  }
+  80% {
+    transform: translateX(-50%) translateY(-10%) rotate(5deg);
+  }
+  100% {
+    transform: translateX(-100vw) translateY(-20%) rotate(-8deg);
+  }
+}
